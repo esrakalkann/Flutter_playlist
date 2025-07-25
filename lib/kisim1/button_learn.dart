@@ -12,7 +12,9 @@ class ButtonLearn extends StatelessWidget {
         children: [
           TextButton(
             child: const Text('Save'),
-            onPressed: (){},//callback function
+            onPressed: (){
+              //userın butona basınca yapacağı işlem
+            },//callback function
           ),
           ElevatedButton(onPressed:(){} , child: const Text('iptal')),
           IconButton(onPressed:(){} , icon: const Text('deneme')),

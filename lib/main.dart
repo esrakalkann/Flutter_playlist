@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_calisma/kisim1/Scaffold.dart';
+import 'package:flutter_calisma/kisim1/app_bar.dart';
 import 'package:flutter_calisma/kisim1/button_learn.dart';
 import 'package:flutter_calisma/kisim1/container_sized_box.dart';
 import 'package:flutter_calisma/kisim1/text.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:  ButtonLearn(),
+      home:  AppBarLearn(),
     );
   }
 }
